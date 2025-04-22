@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
+    <div class="flag-banner">
+        <img src="images/palestine-flag.png" style="width: 100%;" alt="Palestine Flag">
+    </div>
+    <nav class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -16,22 +19,24 @@
         </ul>
     </nav>
 
-    <h1>Admin Dashboard</h1>
-    <form id="add-book-form">
-        <label for="book-name">Book Name:</label>
-        <input type="text" id="book-name" name="book-name" required>
+    <div class="admin-dashboard">
+        <h1>Admin Dashboard</h1>
+        <form id="add-book-form">
+            <label for="book-name">Book Name:</label>
+            <input type="text" id="book-name" name="book-name" required>
 
-        <label for="book-image">Book Image URL:</label>
-        <input type="url" id="book-image" name="book-image" required>
+            <label for="book-image">Book Image URL:</label>
+            <input type="url" id="book-image" name="book-image" required>
 
-        <label for="book-details">Book Details:</label>
-        <textarea id="book-details" name="book-details" required></textarea>
+            <label for="book-details">Book Details:</label>
+            <textarea id="book-details" name="book-details" required></textarea>
 
-        <button type="submit">Add Book</button>
-    </form>
+            <button type="submit">Add Book</button>
+        </form>
+    </div>
 
     <footer>
-        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+        <p>&copy; 2025 Book Website. All rights reserved.</p>
     </footer>
 
     <script src="js/scripts.js"></script>
